@@ -1,10 +1,11 @@
 # Prompt user for total bill then convert bill to an int
-bill_user = input("What was your total bill? ")
+bill_user = float(input("What was your total bill? "))
 bill_user = int(bill_user)
 number_people = input(" How many people will you split with ")
 number_people=int(number_people)
 #Prompt user for the level of service
 level_of_service = input("Was the service good, fair, or bad? ")
+
 #tip amounts
 good_tip = .20 
 fair_tip = .15
